@@ -1,0 +1,16 @@
+PODS:
+  - GJToast (0.1.0)
+
+DEPENDENCIES:
+  - GJToast (from `../`)
+
+EXTERNAL SOURCES:
+  GJToast:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GJToast: ca07ab96b9f303384cddc5b48529b0a82ecd09a1
+
+PODFILE CHECKSUM: 81d59ebae895e7aab5e052751d791c26258eed0a
+
+COCOAPODS: 1.11.3

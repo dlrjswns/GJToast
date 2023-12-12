@@ -1,0 +1,6 @@
+framework module GJToast {
+  umbrella header "GJToast-umbrella.h"
+
+  export *
+  module * { export * }
+}

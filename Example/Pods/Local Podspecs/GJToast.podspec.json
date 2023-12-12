@@ -1,0 +1,22 @@
+{
+  "name": "GJToast",
+  "version": "0.1.0",
+  "summary": "A short description of GJToast.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dlrjswns/GJToast",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dlrjswns": "leekyunjun@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dlrjswns/GJToast.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "GJToast/Classes/**/*"
+}

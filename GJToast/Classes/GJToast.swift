@@ -102,11 +102,11 @@ final public class GJToast: UIView {
     toast.widthAnchor.constraint(lessThanOrEqualToConstant: window.frame.width).isActive = true
     toast.centerXAnchor.constraint(equalTo: window.centerXAnchor).isActive = true
     
-    priorityQueue.append(toast)
-    
-    if priorityQueue.contains(where: { $0.priority.rawValue >= toast.priority.rawValue }) {
-      priorityQueue.
-    }
+//    priorityQueue.append(toast)
+//    
+//    if priorityQueue.contains(where: { $0.priority.rawValue >= toast.priority.rawValue }) {
+//      priorityQueue.
+//    }
     
     toast.showToast()
   }

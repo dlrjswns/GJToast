@@ -1,0 +1,6 @@
+framework module Pods_GJToast_Tests {
+  umbrella header "Pods-GJToast_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
