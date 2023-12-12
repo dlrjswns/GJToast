@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     $0.setTitleColor(.black, for: .normal)
     $0.addTarget(self, action: #selector(didTappedButton), for: .touchUpInside)
     return $0
-  }(UIButton())
+  }(UIButton(type: .system))
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,7 +36,8 @@ class ViewController: UIViewController {
     }
   
   @objc private func didTappedButton() {
-    GJToast.makeToast("안녕하세요", toastImage: UIImage(systemName: "person.fill"))
+    GJToast.makeToast("Hello This is GJToast")
+//    GJToast.makeToast("Hello This is GJToast", toastImage: UIImage(systemName: "checkmark")?.withTintColor(.black, renderingMode: .alwaysOriginal))
   }
 
 }

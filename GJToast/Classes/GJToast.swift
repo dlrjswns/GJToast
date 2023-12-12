@@ -25,13 +25,11 @@ final public class GJToast: UIView {
   private let messageLabel = {
     $0.textColor = .black
     $0.font = .systemFont(ofSize: 12, weight: .regular)
-    $0.backgroundColor = .systemPink
     return $0
   }(UILabel())
   
   private lazy var toastImageView = {
     $0.contentMode = .scaleAspectFit
-    $0.backgroundColor = .blue
     return $0
   }(UIImageView())
   

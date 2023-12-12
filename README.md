@@ -9,6 +9,9 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Record Screen
+![Simulator Screen Recording - iPhone 15 - 2023-12-12 at 23 58 18](https://github.com/dlrjswns/GJDynamicHeightCollectionView/assets/39263235/6e7721c4-78e6-41a7-a891-1f9590d58db4)
+
 ## Requirements
 
 ## Installation
@@ -18,6 +21,11 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'GJToast'
+```
+
+## Usage 
+```swift
+GJToast.makeToast("Hello This is GJToast")
 ```
 
 ## Author
